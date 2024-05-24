@@ -34,9 +34,20 @@ ChartJS.register(
   Legend
 );
 
-const rubik = Rubik({ weight: ['300', '400', '500', '700'], subsets: ['latin'] })
-const nunito = Nunito({ weight: ['400', '500', '600', '700', '800', '900'], subsets: ['latin'] })
-const space_grotesk = Space_Grotesk({ weight: ['400', '500', '600', '700'], subsets: ['latin'] })
+// const rubik = Rubik({ weight: ['300', '400', '500', '700'], subsets: ['latin'] })
+// const nunito = Nunito({ weight: ['400', '500', '600', '700', '800', '900'], subsets: ['latin'] })
+// const space_grotesk = Space_Grotesk({ weight: ['400', '500', '600', '700'], subsets: ['latin'] })
+
+try {
+  const  rubik = Rubik({ weight: ['300', '400', '500', '700'], subsets: ['latin'] });
+  const nunito = Nunito({ weight: ['400', '500', '600', '700', '800', '900'], subsets: ['latin'] });
+  const space_grotesk = Space_Grotesk({ weight: ['400', '500', '600', '700'], subsets: ['latin'] });
+} catch (e) {
+  console.error('Error loading fonts', e);
+  const rubik = { className: 'default-font' };
+  const nunito = { className: 'default-font' };
+  const space_grotesk = { className: 'default-font' };
+}
 
 interface examDataArray {
   id: string,
