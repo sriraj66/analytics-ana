@@ -1,0 +1,32 @@
+.exam_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.add_exam_button {
+  border: none;
+  align-self: flex-end;
+  border: 2px solid transparent;
+}
+.add_exam_button:hover {
+  border-color: #222831;
+}
+
+.details_main_div {
+  gap: 30px;
+}
+
+.splitted_options_div_heading {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.splitted_options_div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

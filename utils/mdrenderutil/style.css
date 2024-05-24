@@ -1,0 +1,35 @@
+h1, h2, h3, h4, h5 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 18px;
+  margin-bottom: 8px;
+}
+
+p, code {
+  margin-inline: 0;
+  margin-top: 0;
+  margin-bottom: 10px;
+  margin-left: 0.2em;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+pre {
+  width: 100%;
+  color: var(--white);
+  margin-block: 2px;
+  padding-inline: 6px;
+  padding-block: 5px;
+  border-radius: 4px;
+  background-color: var(--gray);
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}
+
+ul {
+  margin: 0;
+}
+
+li {
+  margin-bottom: 0.4em;
+}

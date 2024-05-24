@@ -1,26 +1,44 @@
 {
-  "name": "nextjs",
-  "version": "0.1.0",
+  "name": "analytics",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 5500",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.3"
+    "@types/hammerjs": "^2.0.42",
+    "@types/node": "20.3.3",
+    "@types/react": "18.2.14",
+    "@types/react-dom": "18.2.6",
+    "ace-builds": "^1.4.12",
+    "browser-image-compression": "^2.0.2",
+    "chart.js": "^4.4.0",
+    "cookie": "^0.5.0",
+    "highlight.js": "^11.8.0",
+    "jsonwebtoken": "^9.0.1",
+    "markdown-it": "^13.0.1",
+    "next": "^13.5.6",
+    "next-reveal": "^1.0.6",
+    "react": "18.2.0",
+    "react-ace": "^10.1.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-cookie": "^4.1.1",
+    "react-dom": "18.2.0",
+    "react-easy-crop": "^5.0.2",
+    "react-icons": "^4.10.1",
+    "react-markdown": "^8.0.7",
+    "react-timer-hook": "^3.0.7",
+    "react-use-websocket": "^4.3.1",
+    "read-excel-file": "^5.6.1",
+    "romans": "^2.0.8",
+    "supports-color": "^9.4.0",
+    "typescript": "5.1.6",
+    "write-excel-file": "^1.4.27"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.3"
+    "@types/jsonwebtoken": "^9.0.2"
   }
 }

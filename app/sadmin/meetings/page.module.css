@@ -1,0 +1,36 @@
+.meeting_div {
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+  border-radius: 10px;
+  transition: all 150ms ease-in-out;
+  text-decoration: none;
+  background-color: var(--white);
+  overflow: hidden;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  padding: 10px 12px;
+  gap: 10px;
+}
+.meeting_div:hover {
+  transform: translateY(-6px);
+}
+
+.meeting_details_title {
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--main-accent);
+}
+
+.meeting_details_div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.meeting_details_data {
+  display: flex;
+  align-items: center;
+  font-size: 16.5px;
+  word-break: break-word;
+  gap: 6px;
+}

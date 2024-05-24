@@ -1,0 +1,23 @@
+.event_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.event_banner_img {
+  width: 300px;
+  height: 180px;
+}
+
+.event_delete {
+  border: none;
+  color: var(--white);
+  align-self: flex-end;
+  background-color: #DC3545;
+  border: 2px solid transparent;
+}
+.event_delete:hover {
+  border-color: #222831;
+}
